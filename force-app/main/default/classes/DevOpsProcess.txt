@@ -1,0 +1,41 @@
+Access--->> Sandbox, Repo, Jenkins and Sonar
+ENV --->> Dev (comsupport) -->COMSIT (SIT)--> SFDCSTAGE (UAT)-->> PROD and windows for comint and stage
+Repo -->> Face and Package and folder structure
+Dev branch for developer (in FACE repo) -- feature/<developerName>_CR#/Defect#/Bug#UserStory#, devops poc also needs to create branch -- who will be devops poc ? and Lead? Developers to add in To list?
+Deployment timings -->> 
+   COMSIT Morning Slot at 07:30 CET/11:00 AM IST. (Run without test deployment)
+   COMSIT Evening Slot at 12:00 CET/3:30 PM IST   (Run without test deployment)
+   STAGE 1st Window at 09:30 AM CET/1:00 PM IST      (Run with test deployment)
+   STAGE 2nd window at 15:00 PM CET/6:30 PM IST      (Run with test deployment)
+Deployment proccess -->> extract component from target org and merge your changes ..
+Validated package needs to commit 
+Also Sonar report  -- sonar/platform_SIT
+Before committing package , team needs to sync it with respective src
+Manual PDS and Auto pds format
+Pre deployment steps.. needs approval
+Managed package installatoin .. needs approval -->> via manual pds
+Prod deployment-->> every wednesday .. process starts from monday .. release branch creation .. release/sfdc8.14.1.0
+Validation org (opspoc1 or validate1) will be provided.. teams needs to sync delta src ,,,,team needs to create pull req and take the approval ..
+Metadatatracker and scopes
+Prod full test report after prod deployment.. needs to fix test failure if any 
+Sonar report will be shared after prod deployment.. team needs to fix vulnerabilities, bugs and code smells if any 
+Adhoc deployment .. approval needed ..
+Hotfix for Sev 1 and Sev 2.. No hotfix on Friday..
+Show comint/stage deployment email..
+
+Sync the package
+
+Email communication : DevOps DL (PL-salesforce.devops@abb.com)
+
+Access raise ..
+
+** NO DIRECT CHANGE OR DIRECT METADATA CHANGES ALLOWED ** If found Access will be revoked..  ******
+
+
+ 
+jenkins access, sonar access
+how to trigger jenkins job and sonar.. vul, code smells and bug shuld be zero
+Link of jenkins and sonar --
+
+
+
