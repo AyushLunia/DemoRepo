@@ -11,7 +11,7 @@ Deployment proccess -->> extract component from target org and merge your change
 Validated package needs to commit 
 Also Sonar report  -- sonar/platform_SIT
 Before committing package , team needs to sync it with respective src
-Yaha pe change hai
+Yaha pe need changes
 Pre deployment steps.. needs approval
 Managed package installatoin .. needs approval -->> via manual pds
 Prod deployment-->> every wednesday .. process starts from monday .. release branch creation .. release/sfdc8.14.1.0
